@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rimberio Gear Website | Watches Rimberio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h2 class="logo"><a href="#">LOGO</a></h2>
+        <input type="checkbox" id="menu-toggler">
+        <label for="menu-toggler" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </label>
+        <ul class="all-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Products</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="homepage" id="home">
+      <div class="content">
+        <div class="text">
+          <h1>Watches Rimberio</h1>
+          <p>
+            The Rimberio collection offers a wide selection of prestigious.<br>  From Professional to Classic models to suit all wrists.</p>
+        </div>
+        <a href="#services">New Products</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2>New products</h2>
+      <ul class="cards">
+        <li class="card">
+          <img src="images/casion3.avif" alt="img">
+          <h3>AEQ-110W-3A2V</h3>
+          <p>Delve deep into verdant hues with a classic digital watch featuring a dial dressed in green. </p>
+        </li>
+        <li class="card">
+          <img src="images/casion2.avif" alt="img">
+          <h3>W-221H-1AV</h3>
+          <p>Slip on a simple, yet practical digital watch with a boldly angular design.</p>
+        </li>
+        <li class="card">
+          <img src="images/casion1.avif" alt="img">
+          <h3>A158WEA-2</h3>
+          <p>Go vintage in sophisticated blue style — the ever-popular, easy-to-use A158 in an even more elegant hue.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <div class="row company-info">
+        <h3>Our Story</h3>
+        <p>Rimberio was born from a simple idea: time deserves elegance.
+We are a watch brand dedicated to crafting timepieces that combine refined design, precision, and durability. From our first model, our focus has been clear — create watches that are not just accessories, but statements of character and style.</p>
+      </div>
+      <div class="row mission-vision">
+        <h3>Our Mission</h3>
+        <p>Our mission is to offer high-quality watches that balance elegance, performance, and affordability.
+We aim to provide timepieces that accompany our customers in their daily lives — from professional settings to special moments — with reliability and confidence.</p>
+        <h3>Our Vision</h3>
+        <p>Our vision is to establish Rimberio as a trusted watch brand recognized for its design integrity, craftsmanship, and customer satisfaction.
+We strive to build a brand that values precision, simplicity, and long-lasting quality, while staying true to modern trends.</p>
+      </div>
+      <div class="row team">
+        <h3>Our Team</h3>
+        <ul>
+          <li>Precision and reliability</li>
+          <li>Timeless and elegant design</li>
+          <li>Quality materials and craftsmanship</li>
+          <li>Customer trust and transparency</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <p>Reach out to us for any inquiries or feedback.</p>
+      <div class="row">
+        <div class="col information">
+          <div class="contact-details">
+            <p><i class="fas fa-map-marker-alt"></i> 123 Campsite Avenue, Wilderness, CA 98765</p>
+            <p><i class="fas fa-envelope"></i> info@watchesrimberio.com</p>
+            <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+            <p><i class="fas fa-clock"></i> Monday - Friday: 9:00 AM - 5:00 PM</p>
+            <p><i class="fas fa-clock"></i> Saturday: 10:00 AM - 3:00 PM</p>
+            <p><i class="fas fa-clock"></i> Sunday: Closed</p>
+            <p><i class="fas fa-globe"></i> www.watchesrimberio.com</p>
+          </div>          
+        </div>
+        <div class="col form">
+          <form
+            action="https://formspree.io/f/xpqjalvg" method="POST">
+          <label>
+          Your email:
+          <input type="email" name="email">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+      </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <span>Copyright © 2023 All Rights Reserved</span>
+        <span class="link">
+            <a href="#">Home</a>
+            <a href="#contact">Contact</a>
+        </span>
+      </div>
+    </footer>
+
+  </body>
+</html>
